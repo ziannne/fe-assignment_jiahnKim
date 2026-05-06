@@ -184,6 +184,8 @@ Tailwind CSS를 사용하여 **자기소개 카드 UI**를 만드세요.
 
 </body>
 </html>
+<img width="356" height="398" alt="image" src="https://github.com/user-attachments/assets/3fe2afe9-b035-4e1c-9778-280f08ff6f64" />
+
 
 5. 비교 및 회고
 
