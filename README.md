@@ -1,5 +1,18 @@
 프론트 3주차 과제
 
+```css
+.box1 {}
+.box2 {}
+.red-text {}
+.big-text {}
+```
+
+```html
+<div class="box1">
+<p class="red-text big-text">안녕하세요</p>
+</div>
+```
+
 
 0. 문제 인식
 
