@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 카드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black flex items-center justify-center min-h-screen p-6" >
+    
+    <!-- 카드 컨테이너(카드 전체) -->
+    <div class="bg-gray-100 rounded-2xl shadow-lg overflow-hidden transition-all & transform hover:scale-100">
+
+        <!-- 카드 헤더 (배경색 & 상태 뱃지) -->
+        <div class="bg-cyan-500 p-6 flex justify-between items-start">
+            <!-- 상태 뱃지-->
+            <div class="flex items-center gap-2 bg-gray-800/20 px-3 pt-1 rounded-full border border-gray-500">   
+                <span class= "w-2 h-2 bg-green-500 rounded-full"></span>
+                <span class="text-sm text-white">재학 중</span>
+            </div>
+             <!-- 이미지 영역(프로필 이미지)-->
+             <div class=" w-16 h-16 rounded-full overflow-hidden border-2 border-red-500 flex items-center justify-center">
+            <span class=" text-white text-xl text-xs">image</span>
+             </div>
+         </div> 
+        <!-- 콘텐츠 영역(학번, 이름, 전공, 한 줄 소개)-->
+        <div class="p-8">
+            <h2 class="text-2xl font-bold text-cyan-800 mb-2">32251089</h2>
+            <h3 class="text-xl text-cyan-800 mb-1 font-bold">김지안</h3>
+            <p class="text-cyan-800 font-semibold">컴퓨터공학과</p>
+            <p class="text-gray-600 mt-2 text-sm">프론트엔드 개발자가 되고 싶은 대학생입니다!</p>
+            
+            <!-- 기술 태그 영역: HTML, CSS, JavaScript -->
+            <div class="flex gap-2 mt-4">
+                <span class="bg-white text-blue-500 px-3 py-1 rounded-full text-sm">HTML</span>
+                <span class="bg-white text-orange-500 px-3 py-1 rounded-full text-sm">CSS</span>
+                <span class="bg-white text-pink-500 px-3 py-1 rounded-full text-sm">JavaScript</span>
+            </div>
+
+            <!-- 버튼 영역(깃헙, 블로그)=> grid로 반 나눔-->
+            <div class="grid grid-cols-2 gap-4 mt-6">
+                <!-- 깃헙 버튼 -->
+                <a href="https://github.com" target="_blank"
+                   class="bg-gray-700 text-white text-center py-3 rounded-lg text-sm font-bold">
+                GitHub</a>
+                <!-- 블로그 버튼 -->
+                <a href="https://blog.naver.com" target="_blank"
+                   class="bg-gray-700 text-white text-center py-3 rounded-lg text-sm font-bold">
+                   블로그</a>
+            </div>
+        </div> 
+    </div>
+
+</body>
+</html>
