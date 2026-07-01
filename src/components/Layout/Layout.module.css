@@ -1,17 +1,5 @@
-.page {
-    min-height: 100vh;
-    padding: 40px 16px;
-    background-color: rgb(223, 208, 152);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .container{
-    width: min(100%, 700px);
-    padding: 24px;
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    width: 700px;
+    margin: 0 auto;
+    background-color:rgb(223, 208, 152);
 }

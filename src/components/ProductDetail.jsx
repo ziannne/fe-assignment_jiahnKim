@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import useFetchProduct from "../hooks/useFetchProduct";
 import useFetchReview from "../hooks/useFetchReview";
 import styles from "./ProductDetail.module.css";

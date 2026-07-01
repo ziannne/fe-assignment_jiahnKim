@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 import styles from "./Home.module.css";
 
 import useFetchProducts from "../../hooks/useFetchProducts";
